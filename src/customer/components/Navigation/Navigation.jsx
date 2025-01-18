@@ -25,7 +25,7 @@ const navigation = {
       featured: [
         {
           name: 'New Arrivals',
-          href: '#',
+          href: '/product',
           imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/mega-menu-category-01.jpg',
           imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
         },
@@ -251,25 +251,13 @@ export default function Navigation() {
                 </a>
               </div>
             </div>
-
-            <div className="border-t border-gray-200 px-4 py-6">
-              <a href="#" className="-m-2 flex items-center p-2">
-                <img
-                  alt=""
-                  src="https://tailwindui.com/plus/img/flags/flag-canada.svg"
-                  className="block h-auto w-5 shrink-0"
-                />
-                <span className="ml-3 block text-base font-medium text-gray-900">CAD</span>
-                <span className="sr-only">, change currency</span>
-              </a>
-            </div>
           </DialogPanel>
         </div>
       </Dialog>
 
       <header className="relative bg-white">
         <p className="flex h-10 items-center justify-center bg-indigo-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
-          Get free delivery on orders over $100
+          Get free delivery on orders over 1000 INR
         </p>
 
         <nav aria-label="Top" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -385,18 +373,6 @@ export default function Navigation() {
                   <span aria-hidden="true" className="h-6 w-px bg-gray-200" />
                   <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-800">
                     Create account
-                  </a>
-                </div>
-
-                <div className="hidden lg:ml-8 lg:flex">
-                  <a href="#" className="flex items-center text-gray-700 hover:text-gray-800">
-                    <img
-                      alt=""
-                      src="https://tailwindui.com/plus/img/flags/flag-canada.svg"
-                      className="block h-auto w-5 shrink-0"
-                    />
-                    <span className="ml-3 block text-sm font-medium">CAD</span>
-                    <span className="sr-only">, change currency</span>
                   </a>
                 </div>
 
